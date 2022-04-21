@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        
+        table,
+        td{
+          border: solid 2px black;
+          text-align: center;
+          border-collapse: collapse;
+        }
+        
+        .bold~tr td {
+          border: solid 1px lightgray;
+        }
+        
+        td {
+          padding: 0.5em;
+        }
+        
+        [colspan="4"][rowspan="2"] {
+          height: 6em;
+        }
+            </style>
+
+
+<body>
+
+    <table>
+        <tr>
+          <td colspan="2" rowspan="">Qty</td>
+          <td colspan="4">Product Details</td>
+          <td colspan="3">Price(AED)</td>
+          <td colspan="3">Total(AED)</td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="5">1</td>
+            <td colspan="4" rowspan="5"> <P>Acer ChromeBook Intel Celeron DC 11.6" <br>4GB RAM 16 GB HDD Chrome
+                OS(Renewed)<br>SKU code12060081<br>Order ID :55</P></td>
+            <td colspan="3" rowspan="5">299.00</td>
+            <td colspan="3" rowspan="5">299.00</td>
+        </tr>
+        <tr>
+            <td colspan="9"> Shipping Charges</td>
+            <td colspan="3"> 0.00 </td>
+        </tr>
+        <tr>
+            <td colspan="9"> Tax Amount(VAT 5%)</td>
+            <td colspan="3"> 15.00</td>
+        </tr>
+        <tr>
+            <td colspan="9"> Sub Total</td>
+            <td colspan="3"> 314.00</td>
+        </tr>
+        <tr>
+            <td colspan="9"><b>Grand Total</b></td>
+            <td colspan="3"> 314.00</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
+           
+           
+
+  
